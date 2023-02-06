@@ -1,0 +1,91 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .header{margin-left: 0;
+    }
+        }
+.logo{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: beige;
+    background-color: #3f8ac9;
+    margin-left: 156px;
+    padding: .5rem;
+    padding-top: .2rem;
+    padding-bottom: .06rem;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 480px) {
+    .logo{margin-left: 0;
+        margin-right: 150px;
+    }
+        }
+ 
+table,.body>table ,caption, tr, td, th{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: .5rem;
+    padding-right: 2.5rem;
+    
+} 
+@media screen and (max-width: 480px) {
+    table,.body>table ,caption, tr, td, th{
+        margin-left: 0;
+        max-width: 300px;
+    }
+        }
+.display{
+    margin-right: 160px; 
+} 
+.dis1{
+    text-decoration: none;
+    color: #000;
+}
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+    
+}
+ .hover:hover{
+    background-color: #5cc1df;
+}
+.dropdown{
+   
+    display: none;
+
+}
+.fas{
+    float: right;
+}
+.dis2:hover  .dropdown  { 
+display: block;
+position: absolute;
+list-style: none;
+border: 1px solid grey;
+border-collapse: collapse;
+padding: .5rem;
+padding-right: 2.5rem;
+background-color: #5cc1df;
+
+}
+.dis2:hover  .dropdown li{
+    border: 1px solid grey;
+    list-style: none;
+    padding: 1rem;
+}
+
+
+
